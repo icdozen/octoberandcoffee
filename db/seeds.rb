@@ -10,3 +10,7 @@
  # Admin.create email: 'brian.vanloo@gmail.com', password: 'insecure-password'
  #Admin.new(email:'admin@aol.com',password:'mmmmmmmm')
  user = Admin.create!(email: 'admin@admin.com', password: 'admin123456', password_confirmation: 'admin123456')
+
+ Product.create([
+{name:"TOPECA COFFEE ROASTERS - EL SALVADOR AYUTEPEQUE", description: "Nutty, chocolate, rich. From El Salvador.", image:"http://truthkingdom.com/wyncode/wendy-hayward.jpg", price_in_cents: 600},
+])
