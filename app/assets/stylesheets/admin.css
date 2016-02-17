@@ -1,0 +1,33 @@
+/*// Place all the styles related to the admin controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div {
+  font-family: sans-serif;
+   text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+   /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+/*
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+  background-color: #888;
+  background-image:url('http://www.omronfitness.com/wp-content/themes/twentyeleven/img/omron-products-header.png');
+  background-repeat: no-repeat;
+  font-family: helvetica, arial, sans-serif;
+  text-transform: uppercase;
+}*/*/*/

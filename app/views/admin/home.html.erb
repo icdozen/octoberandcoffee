@@ -1,16 +1,26 @@
 <h1>Admin Dashboard</h1>
 
-<ul>
-  <li><%= link_to 'Products', products_path %></li>
-  <li><%= link_to 'Reviews', reviews_path %></li>
-</ul>
+
+<p><%= link_to 'Products', products_path %></p>
+<p><%= link_to 'Reviews', reviews_path %></p>
+
+
+<!-- <marquee width="80%"><center><h1> Admin Dashboard</h1></center></marquee>
+<div>
+  <ul><%= link_to 'Products', products_path %><</ul>
+  <ul><%= link_to 'Reviews', reviews_path %></ul>
+</div>
+<img src="https://media.giphy.com/media/11rIergnpiYpvW/giphy.gif">
+
+ <img src="https://nullroute.eu.org/mirrors/xkcd-geocities/imgs.xkcd.com/geocities.jpg">
+<img src="http://img15.hostingpics.net/pics/419640contatore.gif"> -->
 
 <% if admin_signed_in? %>
-  <li>
+  <p>
   <%= link_to('Logout', destroy_admin_session_path, :method => :delete) %>
-  </li>
+</p>
 <% else %>
-  <li>
+  <p>
   <%= link_to('Login', new_admin_session_path)  %>
-  </li>
+</p>
 <% end %>
