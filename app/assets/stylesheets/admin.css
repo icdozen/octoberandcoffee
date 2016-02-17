@@ -6,6 +6,11 @@ p {
     text-align: center;
 }
 
+ul {
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
 div {
   font-family: sans-serif;
    text-align: center;
@@ -17,7 +22,10 @@ h1 {
    /*box-shadow: 10px 10px 5px #888888;*/
 }
 
-/*
+body {
+  background-image: url("http://contemporary-home-computing.org/prof-dr-style/bg/deep.gif");
+      /*background-color: #cccccc;*/
+}
 img {
   display: block;
     margin-left: auto;
@@ -30,4 +38,14 @@ body {
   background-repeat: no-repeat;
   font-family: helvetica, arial, sans-serif;
   text-transform: uppercase;
-}*/*/*/
+}
+
+marquee {
+  display: block;
+  width: 500px;
+  margin: 100px auto 0;
+  padding: 5px 0;
+  border: 1px solid #333;
+  font-weight: 700;
+  color: #c0392b;
+}
